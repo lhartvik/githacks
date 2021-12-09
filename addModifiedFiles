@@ -1,0 +1,1 @@
+git status|grep modified|grep -o "src/main.*"|xargs git add
